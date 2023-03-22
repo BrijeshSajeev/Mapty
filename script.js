@@ -197,8 +197,7 @@ class App{
         <li class="workout workout--${workout.type}" data-id="${workout.id}">
         <h2 class="workout__title">${workout.type==='running'?'🏃‍♂️' :'🚴‍♀️'} ${workout.description}</h2>
         <div class="icon">
-            <span class="icon--edit">🖊️</i></span>
-            <span class="icon--delete">🚮</i></span>
+            
         </div>
         <div class="workout__details">
           <span class="workout__icon">${workout.type==='running'?'🏃‍♂️' :'🚴‍♀️'}</span>
